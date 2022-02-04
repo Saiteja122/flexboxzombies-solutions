@@ -1,0 +1,242 @@
+Chapter 5 Where the Wild Things Grow
+flex-grow
+
+Level 1 enter
+Level 2 enter
+Level 3 enter
+Level 4 enter
+
+Level 5
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Level 6
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-grow: 1;
+}
+
+Level 7
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.target.goo {
+  flex-grow: 1;
+}
+
+Level 8
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target:nth-of-type(1) {
+  flex-grow: 1;  
+}
+
+.target:nth-of-type(2) {
+  flex-grow: 2;
+}
+
+Level 9
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.target:nth-of-type(1) {
+  flex-grow: 3;
+}
+
+.target:nth-of-type(2) {
+  flex-grow: 1;
+}
+
+Level 10
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target{
+  flex-grow: 1;
+}
+
+.target:nth-of-type(2) {
+  flex-grow: 0;
+}
+
+Level 11 enter
+
+Level 12
+crossbow {
+  display: flex;
+}
+
+.target.goo {
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+.target.female {
+  align-self: flex-start;
+}
+
+Level 13
+crossbow {
+  display: flex;
+  flex-direction: column;
+}
+
+.target:nth-of-type(1) {
+  align-self: flex-stretch
+}
+
+.target:nth-of-type(2) {
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+Level 14
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.target.goo {
+  align-self: center;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(1) {
+  align-self: flex-end;
+  flex-grow: 2;
+}
+
+Level 15
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+Level 16
+crossbow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.target.goo {
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+Level 17
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+.target.goo {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(1) {
+  flex-grow: 0;
+}
+
+.target:nth-of-type(4) {
+  align-self: flex-start;
+  flex-grow: 3;
+}
+
+Level 18
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.target.goo {
+  flex-grow: 1;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(3) {
+  flex-grow: 0;
+}
+
+Level 19
+crossbow {
+  display: flex;
+  align-items: flex-end;
+}
+
+.target.goo {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(3) {
+  align-self: stretch;
+}
+
+Level 20
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.target.goo {
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(4) {
+  align-self: flex-end;
+  flex-grow: 3;
+}
+
+Level 21
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+Level 22 enter
