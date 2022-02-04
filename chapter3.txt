@@ -1,0 +1,129 @@
+Chapter 3 The Alignment Lasers
+align-items
+
+Level 1 enter
+Level 2 enter
+
+Level 3
+crossbow {
+  display: flex;
+  align-items: flex-start;
+}
+
+Level 4
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+Level 5
+crossbow {
+  display: flex;
+  align-items: flex-end;
+}
+
+Level 6
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+Level 7
+crossbow {
+  display: flex;
+  align-items: stretch;
+}
+
+Level 8
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+Level 9 enter
+
+Level 10
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+Level 11
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+Level 12
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+Level 13
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+Level 14
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+Level 15
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+Level 16
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+Level 17
+crossbow {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+Level 18
+crossbow {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+Level 19
+crossbow {
+  display: flex;
+}
+
+Level 20
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+Level 21 enter
