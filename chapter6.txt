@@ -1,0 +1,250 @@
+Chapter 6 That Shrinking Feeling
+flex-shrink
+
+Level 1 enter
+Level 2 enter
+
+Level 3
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-shrink: 1;
+}
+
+Level 4
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-shrink: 2;
+}
+
+Level 5
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target:nth-of-type(2), .target:nth-of-type(3) {
+  flex-shrink: 2;
+}
+
+Level 6
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.target:nth-of-type(3) {
+  flex-shrink: 3;  
+}
+
+Level 7
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.target:nth-of-type(3) {
+  flex-shrink: 0;
+}
+
+Level 8
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-grow: 1;
+}
+
+Level 9 enter
+
+Level 10
+crossbow {
+  display: flex;
+}
+
+.target.goo {
+  align-self: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.target.male {
+  align-self: center;
+}
+
+Level 11
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+}
+
+.target:nth-of-type(3) {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+Level 12
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+.target:nth-of-type(1) {
+  align-self: center;
+}
+
+.target:nth-of-type(2) {
+  align-self: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+Level 13
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+.target:nth-of-type(3) {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+Level 14
+crossbow {
+  display: flex;
+  align-items: flex-start;
+}
+
+.target:nth-of-type(2) {
+  align-self: flex-start;
+  flex-grow: 2;
+  flex-shrink: 1;
+}
+
+.target:nth-of-type(3) {
+  align-self: stretch;
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+Level 15
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target:nth-of-type(1) {
+  flex-shrink: 2;
+}
+
+.target:nth-of-type(2) {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+Level 16
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.target.goo {
+  align-content: center;
+}
+
+.target:nth-of-type(1) {
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(2) {
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+  flex-grow: 2;
+}
+
+Level 17
+crossbow {
+  display: flex;
+  align-items: flex-end;
+}
+
+.target.goo {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(1) {
+  flex-grow: 3;
+  flex-shrink: 0;
+}
+
+Level 18
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+Level 19
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.target:nth-of-type(1) {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+Level 20 enter
+Level 21 enter
