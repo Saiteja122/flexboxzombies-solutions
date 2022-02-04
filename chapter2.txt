@@ -1,0 +1,118 @@
+Chapter 2 The Justify Laser
+justify-content
+
+Level 1 enter
+Level 2 enter
+
+Level 3
+crossbow {
+    display: flex;
+}
+
+Level 4 enter
+
+Level 5
+crossbow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+Level 6
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+Level 7
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+Level 8
+crossbow {
+  display: flex;
+  justify-content: center;
+}
+
+Level 9
+crossbow {
+  display: flex;
+  justify-content: space-between;
+}
+
+Level 10
+crossbow {
+  display: flex;
+  justify-content: space-around;
+}
+
+Level 11 enter
+
+Level 12
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+Level 13
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+Level 14
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+Level 15
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;  
+}
+
+Level 16
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+Level 17
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+Level 18
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+Level 19
+crossbow {
+  display: flex;
+  justify-content: center;
+}
+
+Level 20
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+Level 21 enter
+Level 22 enter
+
