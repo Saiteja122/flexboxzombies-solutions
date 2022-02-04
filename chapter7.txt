@@ -1,0 +1,278 @@
+Chapter 7 In a Perfect World
+flex-basis
+
+Level 1 enter
+Level 2 enter
+
+Level 3
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-basis: 300px;
+}
+
+Level 4
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  width: 500px;
+  flex-basis: 100px;
+}
+
+Level 5
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-basis: 100px;
+  min-width: 300px;
+}
+
+Level 6
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-basis: 400px;
+  max-width: 100px;
+}
+
+Level 7
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  flex-basis: 300px;
+}
+
+Level 8
+crossbow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.target:nth-of-type(1) {
+  flex-basis: 50%;  
+}
+
+Level 9
+crossbow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.target.goo {
+  flex-basis: 300px;  
+}
+
+Level 10
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo {
+  width: 100px; 
+}
+
+Level 11
+crossbow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.target.goo {
+  flex-basis: 300px;
+}
+
+.target:nth-of-type(1) {
+  flex-shrink: 2;
+}
+
+Level 12
+crossbow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.target.goo {
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+Level 13 enter
+
+Level 14
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.target.goo {
+  flex-basis: 300px;
+}
+
+Level 15
+crossbow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.target.goo {
+  flex-basis: 75px;
+}
+
+Level 16
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.target.goo {
+  flex-basis: 500px;
+}
+
+Level 17
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex-basis: 50%;
+}
+
+.target:nth-of-type(3) {
+  align-self: stretch;
+  flex-basis: 50%;
+}
+
+Level 18
+crossbow {
+  display: flex;
+  align-items: flex-end;
+}
+
+.target.goo {
+  align-self: center;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+  flex-basis: 75px;
+  flex-grow: 0;
+}
+
+Level 19
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.target.goo {
+  max-height: none;
+  flex-grow: 1;
+}
+
+.target:nth-of-type(2) {
+  max-height: 200px;
+  flex-grow: 1;
+}
+
+Level 20
+crossbow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.target.goo {
+  flex-basis: 200px;
+}
+
+.target:nth-of-type(1) {
+  flex-shrink: 0;
+}
+
+.target:nth-of-type(2) {
+  min-width: 300px;
+}
+
+Level 21
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.target.goo {
+  flex-basis: 250px;
+}
+
+.target:nth-of-type(1) {
+  flex-shrink: 0;
+}
+
+Level 22
+crossbow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.target.goo {
+  flex-basis: 200px;
+  flex-shrink: 1;
+}
+
+.target:nth-of-type(2) {
+  flex-shrink: 0;
+}
+
+Level 23
+crossbow {
+  display: flex;
+  justify-content: center;
+}
+
+.target.goo {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start; 
+}
+
+Level 24 enter
+Level 25 enter
