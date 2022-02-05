@@ -1,0 +1,133 @@
+Chapter 11 Shortcut to the Kill
+flex & flex-flow
+
+Level 1 enter
+Level 2 enter
+
+Level 3
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: 1 1 300px;
+}
+
+Level 4
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target:nth-of-type(1) {
+  flex: 1 0 auto;
+}
+
+Level 5
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target:nth-of-type(3) {
+  flex: 0 1 300px;
+}
+
+Level 6
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: 1;
+}
+
+Level 7
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: auto;
+}
+
+Level 8
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: none;
+}
+
+Level 9
+crossbow {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+Level 10 enter
+
+Level 11
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.target.goo {
+  flex: 0 1 300px;
+}
+
+Level 12
+crossbow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.target:nth-of-type(1) {
+  flex: 0 0 auto;
+}
+
+Level 13
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: 0 0 25%;
+}
+
+.target:nth-of-type(3) {
+  align-self: stretch;
+}
+
+Level 14
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.target:nth-of-type(3) {
+  flex: auto;
+}
+
+Level 15
+crossbow {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: flex-start;
+  align-content: center;
+}
+
+Level 16 enter
+Level 17 enter
