@@ -1,0 +1,124 @@
+Chapter 12 To the Death
+
+Level 1 enter
+Level 2 enter
+
+Level 3
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+Level 4
+crossbow {
+  display: flex;
+  align-items: flex-end;
+}
+
+.target.goo {
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+Level 5
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end
+}
+
+.target.female {
+  align-self: center;
+}
+
+Level 6
+crossbow { 
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+}
+
+Level 7
+crossbow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.target:nth-of-type(2) {
+  flex: 1 1 auto;
+}
+
+Level 8
+crossbow {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.target:nth-of-type(2) {
+  flex: 1 1 auto;
+}
+
+Level 9
+crossbow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+  flex: 0 1 auto;
+}
+
+.target:nth-of-type(3) {
+  flex: 1 0 auto;
+}
+
+Level 10
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+  flex: 1 2 auto;
+}
+
+.target:nth-of-type(3) {
+  align-self: flex-start;
+}
+
+.target:nth-of-type(4) {
+  
+}
+
+Level 11
+crossbow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.target.dave {
+  order: 1;
+  align-self: flex-start;
+}
+  
+.target.goo {
+  align-self: flex-end; 
+}
+
+Level 12 enter
